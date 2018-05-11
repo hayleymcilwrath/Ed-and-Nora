@@ -846,8 +846,10 @@ ul {
 .features .wrapper > div img {
 	max-width: 280px;
 	width: 20%;
+    margin-left: 30%;
     position: absolute;
-    top: 10%;
+    z-index: -100px;
+    top:30%;
     left: 30px;
     transform: translateY(-50%);
 }
@@ -855,23 +857,28 @@ ul {
 .features strong {
 	width: 100%;
 	color: green;
-	font-size: 22px;
+	font-size: 20px;
     font-family: fira-sans, sans-serif;
-    float: left; 
+    margin-left: -300px;
+    
+  
+     
     
 }
 
 .features p {
 	width: 300px;
 	text-align: left;
-    margin-left: -20%;
+    position: absolute;
+    float: left;
+    margin-left: -300px;
+
 }
     
 .features .wrapper > img {
     visibility: hidden;
 	    
 }
-
 
 
 
