@@ -131,7 +131,7 @@ p {
 
 .about {
     background: url(../images/about-background.svg) no-repeat center 0px;
-    padding: 120px 0;
+    padding: 150px 0;
     background-size: cover;
 }
 .about .top {
